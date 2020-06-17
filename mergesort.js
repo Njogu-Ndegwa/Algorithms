@@ -25,4 +25,4 @@ const mergeSort = arr => {
      return merge(left, right);
  };
 
- console.log('merge sort', mergeSort(arr))
+ console.log( 'A merge sort', mergeSort(arr))
