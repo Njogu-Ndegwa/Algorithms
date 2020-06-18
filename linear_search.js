@@ -12,7 +12,7 @@ var linearSearch = function linearSearch (array , item) {
     return null;
 }
 
-console.log('index', linearSearch(array, item))
+console.log('the index', linearSearch(array, item))
 
 
 // Global linear search
