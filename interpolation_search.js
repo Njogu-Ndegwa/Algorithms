@@ -22,7 +22,7 @@ function interpolationSearch (arr , x) {
         }
     } 
 
-    return "Element isn't in the array"
+    return "Element isn't in the input array"
 }
 
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
