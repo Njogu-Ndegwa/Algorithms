@@ -1,18 +1,12 @@
-var number = 98436932
+var no1 = 10
+var no2 = 493193
 
-function splits(n) {
-    var arr_string = ('' + n).split('');
-    var arr_numbers = arr_string.map(Number)
-    for (let i = 0; i<arr_numbers.length; i++) {
-        if(arr_numbers[i]<=5 ) {
-            arr_numbers[i] = 0
-        } else {
-            arr_numbers[i] = 1
-        }
-    }
-  
-    return arr_numbers.join('')
+function digital_root(n) {
+    let arr= (''+n).split('').map(Number)
+     var sum  = arr.reduce((a, b) => a+b, 0);
+     return sum>= 10 ? digital_root(sum) : sum
 }
 
-console.log('number', splits(number))
+console.log(digital_root(no2))
+
 
