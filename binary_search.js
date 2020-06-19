@@ -24,4 +24,4 @@ var binarySearch = function binarySearch (arr , item) {
         return null
 }
 
-console.log(binarySearch(sorted_array, item))
+console.log("Algorithm", binarySearch(sorted_array, item))
