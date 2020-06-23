@@ -25,7 +25,7 @@ for(var i = 0; i<10; i++) {
     arr.push(getRandomInt(1, 100));
 }
 
-console.log('unsorted array:')
+console.log(' An unsorted array:')
 console.log(arr);
 
 let array = [5, 12, 7, 14, 15, 4, 16, 3, 22]
